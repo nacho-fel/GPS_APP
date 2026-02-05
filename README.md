@@ -97,9 +97,6 @@ python gps.py
 - Implements Dijkstra's algorithm
 - Calculates both distance and time-optimized paths
 
-## License
-
-This project is for educational purposes and was developed as part of a Discrete Mathematics course at ICAI.
-
 
 ---
+
