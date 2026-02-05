@@ -4,9 +4,9 @@
 
 ## Overview
 
-This project implements a GPS navigation system for Madrid’s street network, modeling the city as a weighted graph where intersections are vertices and street segments are edges. It supports two optimized routing modes shortest distance (Euclidean segment length) and fastest route (travel time computed from length and road-type speed limits)—both powered by Dijkstra’s algorithm.
+This project implements a GPS navigation system for Madrid’s street network, modeling the city as a weighted graph where intersections are vertices and street segments are edges. It supports two optimized routing modes shortest distance (Euclidean segment length) and fastest route (travel time computed from length and road-type speed limits), both powered by Dijkstra’s algorithm.
 
-To build a clean, navigable network from official datasets, the system includes a data-processing pipeline that normalizes complex address strings (via regular expressions) and unifies near-duplicate coordinates efficiently using KD-Tree spatial indexing. In addition to real-time routing, the library provides minimum spanning tree analysis through Prim’s and Kruskal’s algorithms for network optimization.
+To build a clean, navigable network from official datasets, the system includes a data-processing pipeline that normalizes complex address strings (via regular expressions) and unifies near duplicate coordinates efficiently using KD-Tree spatial indexing. In addition to real-time routing, the library provides minimum spanning tree analysis through Prim’s and Kruskal’s algorithms for network optimization.
 
 Key features include:
 - Two routing formulations: shortest distance vs fastest route
@@ -105,5 +105,6 @@ python gps.py
 
 
 ---
+
 
 
