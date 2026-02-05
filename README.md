@@ -12,11 +12,6 @@ The system processes official Madrid city datasets to create a navigable graph o
 
 ![Mapa de Madrid](Madrid.png)
 
-## Team Members
-
-* Ulises Díez Santaolalla  
-* Ignacio Felices Vera
-
 ## Key Features
 
 * **Dual routing options**:
@@ -105,5 +100,6 @@ python gps.py
 ## License
 
 This project is for educational purposes and was developed as part of a Discrete Mathematics course at ICAI.
+
 
 ---
